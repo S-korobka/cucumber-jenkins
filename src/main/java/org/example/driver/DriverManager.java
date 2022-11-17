@@ -17,7 +17,7 @@ public class DriverManager {
 
     private static final long IMPLICIT_WAIT_TIMEOUT = 2;
     private static final long PAGE_LOAD_TIMEOUT = 10;
-    private static final String SELENOID_HUB = "http://78.26.209.95:4444/wd/hub";
+    private static final String SELENOID_HUB = "http://192.168.56.103:4444/wd/hub/";
     private static final String BROWSER = System.getProperty("browser", "firefox");
     public static ThreadLocal<WebDriver> webDriverThreadLocal = new ThreadLocal<>();
 
